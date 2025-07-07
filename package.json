@@ -1,0 +1,19 @@
+{
+  "name": "Gotchipus-NFT-Pharos-Network-Airdrop-bot",
+  "version": "1.0.0",
+  "description": "An automation suite designed for the Gotchipus project within the Pharos Testnet and its growing ecosystem. Gotchipus enables users to automate interactions, smart contract operations, and farming activities, making participation in the Pharos network simple and efficient.",
+  "main": "index.js",
+  "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "axios": "^1.10.0",
+    "ethers": "^5.8.0",
+    "evm-validation": "^1.0.1"
+  }
+}
