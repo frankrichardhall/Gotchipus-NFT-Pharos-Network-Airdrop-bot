@@ -35,7 +35,7 @@ async function runBots() {
     await bot.claimWearable();
 
     const delay = Math.floor(Math.random() * 5000) + 3000;
-    console.log(`[${getUTCTime()}] Waiting ${delay}ms before next account...\n`);
+    console.log(`[${getUTCTime()}] Waiting ${delay}ms before next account ...\n`);
     await sleep(delay);
   }
 
